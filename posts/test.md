@@ -1,13 +1,14 @@
 ---
-title: "Ligandlarning makromolekulalarga ta'siri"
-desc: "alfa-amilaza va kreatin-kinaza fermentlari faol markaziga 9 xildagi biologik faol moddalarning ta'siri"
-imgs: images/2cpu.png
-date: '2022-06-19'
+title: "This is an example post"
+author: "Alex Merced"
+category: "example"
+date: "2022-03-13"
+bannerImage: "/images/2cpu.png"
 tags:
-  - docking
+    - example 1
 ---
+![image](/images/2cpu.png)
 
-#One morning, when Gregor Samsa woke from troubled dreams.
 One morning, when Gregor Samsa woke from troubled dreams, he found himself *transformed* in his bed into a horrible  [vermin](http://en.wikipedia.org/wiki/Vermin "Wikipedia Vermin"). He lay on his armour-like back, and if he lifted his head a little he could see his brown belly, slightly domed and divided by arches into stiff sections. The bedding was hardly able to cover **strong** it and seemed ready to slide off any moment. His many legs, pitifully thin compared with the size of the rest of him, link waved abouthelplessly as he looked. <cite>“What's happened to me?”</cite> he thought. It wasn't a dream. His room, a proper human room although a little too small, lay peacefully between its four familiar walls.</p>
 
 ## The bedding was hardly able to cover it.
@@ -80,3 +81,5 @@ Thus, he tried to get his upper body out of the bed first and turned his head ca
 5. The Diaries Of Franz Kafka
 
 ***
+
+[Back](../)

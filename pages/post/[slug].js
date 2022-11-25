@@ -1,6 +1,7 @@
 import fs from 'fs';
 import matter from 'gray-matter';
 import md from 'markdown-it';
+import Image from 'next/image';
 
 export async function getStaticPaths() {
   // Retrive all our slugs
@@ -30,10 +31,20 @@ export async function getStaticProps({ params: { slug } }) {
 }
 
 export default function PostPage({ frontmatter, content }) {
+
+  const {title, author, category, date, bannerImage, tags} = frontmatter
+
   return (
     <div className='prose mx-auto'>
-      <h1>{frontmatter.title}</h1>
-      <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
+        <Image 
+          src={bannerImage} 
+          alt={title}
+          width={560}
+          height={350} />
+        <h1>{title}</h1>
+        <h2>{author} || {date}</h2>
+        <h3>{category} || {tags.join()}</h3>
+        <div dangerouslySetInnerHTML={{ __html: md().render(content) }} />
     </div>
   );
 }

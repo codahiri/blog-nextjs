@@ -1,11 +1,14 @@
 ---
-title: "Ligandlarning makromolekulalarga ta'siri 2"
-desc: "alfa-amilaza va kreatin-kinaza fermentlari faol markaziga 9 xildagi biologik faol moddalarning ta'siri"
-imgs: images/2CRK.png
-date: '2022-06-19'
+title: "This is an example post"
+author: "Alex Merced"
+category: "example"
+date: "2022-03-13"
+bannerImage: "/images/2CRK.png"
 tags:
-  - docking
+    - example 2
 ---
 
-# Asosiy oyna
+## Asosiy oyna
 > Bu test fayl
+
+[Back](../)
